@@ -1,0 +1,168 @@
+
+.table-container {
+  margin: 20px auto;
+  max-width: 1000px;
+  width: 100%;
+  padding: 20px;
+  overflow-x: auto;
+}
+
+.table-container h1 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 600px;
+}
+
+thead {
+  background-color: #f4f4f4;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: #4CAF50;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tr:hover {
+  background-color: #ddd;
+}
+
+img {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+}
+
+.table-header {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.total-count {
+  font-size: 18px;
+}
+
+.search-container {
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.search-container input {
+  width: 100%;
+  max-width: 400px;
+  padding: 4px;
+  font-size: 14px;
+}
+
+.createEmpBtn {
+  width: 200px;
+  max-width: 250px;
+  padding: 5px;
+  text-align: left;
+  border: none;
+  background-color: rgb(208, 235, 162);
+  transition: background-color 0.3s;
+}
+
+.createEmpBtn:hover {
+  background-color: #45a049;
+  color: white;
+}
+
+.action-buttons {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+  justify-content: center;
+}
+
+.action-buttons button {
+  padding: 4px 8px;
+  border: none;
+  background-color: #9eeaa0;
+  color: black;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.action-buttons button:hover {
+  background-color: #45a049;
+  color: white;
+}
+
+.action-buttons .delete-button {
+  background-color: rgb(241, 178, 178);
+  color: black;
+}
+
+.action-buttons .delete-button:hover {
+  background-color: #d32f2f;
+  color: white;
+}
+
+ @media (min-width: 768px) {
+  .table-header {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .search-container input {
+    width: auto;
+    flex: 1;
+  }
+}
+
+@media (max-width: 768px) {
+  .table-container {
+    padding: 10px;
+  }
+
+  th, td {
+    font-size: 14px;
+    padding: 6px;
+  }
+
+  .createEmpBtn {
+    width: 100%;
+  }
+
+  .search-container {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .search-container input {
+    width: 100%;
+  }
+} 
+
+
+
+
+
+
+

@@ -1,0 +1,128 @@
+/* 
+.create-employee-form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+  }
+  
+  .create-employee-form h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .create-employee-form div {
+    margin-bottom: 15px;
+  }
+  
+  .create-employee-form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .create-employee-form input[type="text"],
+  .create-employee-form input[type="email"],
+  .create-employee-form input[type="file"],
+  .create-employee-form select {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+  }
+  
+  .create-employee-form input[type="radio"],
+  .create-employee-form input[type="checkbox"] {
+    margin-right: 5px;
+  }
+  
+  .create-employee-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .create-employee-form button:hover {
+    background-color: #45a049;
+  }
+   */
+
+
+   .create-employee-form {
+    width: 400px;
+    margin: 0 auto;
+ 
+    /* font-family: Arial, sans-serif; */
+    font-family: Arial, sans-serif;
+  }
+  
+  .create-employee-form h1 {
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  
+  .create-employee-form div {
+    margin-bottom: 15px;
+  }
+  
+  .create-employee-form label {
+    display: block;
+    margin-bottom: 5px;
+    /* font-weight: bold; */
+  }
+  
+  .create-employee-form input[type="text"],
+  .create-employee-form input[type="email"],
+  .create-employee-form select,
+  .create-employee-form input[type="file"] {
+    width: calc(100% - 10px);
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .create-employee-form input[type="radio"],
+  .create-employee-form input[type="checkbox"] {
+    margin-right: 5px;
+  }
+  
+  .create-employee-form button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .create-employee-form button[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  .gender-data{
+
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-top: 30px;
+  }
+  .course-field{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-top: 30px;
+  }
+
+
+  @media (max-width:500px) {
+    .create-employee-form {
+      width: 300px;
+    }
+    
+  }

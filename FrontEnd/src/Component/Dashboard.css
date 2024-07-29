@@ -1,0 +1,16 @@
+/* Dashboard.css */
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.welcome {
+  margin: 200px auto;
+}
+
+@media (max-width: 500px) {
+  .welcome {
+    margin: 200px auto;
+  }
+}
